@@ -1,0 +1,49 @@
+:root{
+    --th-clr: #3A3782;
+    --th-hover: #605BE5;
+}
+
+/* -- m-body -- */
+.table_section{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.genInfo-tbl{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+
+.bd-head{
+    text-align: center;
+    margin: 1rem 0;
+    padding: .2rem .3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.tbl_head{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.genInfo-tbl th,
+.genInfo-tbl td{
+    font-size: 1rem;
+    border: .1rem solid var(--grey-bdr2);
+    padding: .6rem;
+}
+
+.genInfo-tbl th{
+    background-color: var(--th-clr);
+    color: var(--white-clr);
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    transition: .5s;
+}
+
+.genInfo-tbl th:hover{
+    background-color: var(--th-hover);
+}

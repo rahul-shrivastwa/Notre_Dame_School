@@ -1,0 +1,25 @@
+/* ----------- m-body ----------- */
+.aims,
+.b-aims{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.aims{
+    color: #333333;
+}
+
+.b-aims{
+    padding: 0 1rem;
+}
+
+.aim-box h2{
+    font-weight: 600;
+    color: #333333;
+}
+
+.aim-box p,
+.aim-box ul li{
+    font-size: 1.2rem;
+    color: #7c7c7c;
+}

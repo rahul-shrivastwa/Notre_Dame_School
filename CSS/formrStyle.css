@@ -1,0 +1,23 @@
+/* ---------------- m-body ---------------- */
+.b-former,
+.f-txt,
+.f-principals{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.b-former,
+.f-txt{
+    color: #333;
+}
+
+.f-txt{
+    text-align: center;
+}
+
+.princpl-txt,
+.f-principals{
+    border: .4rem solid #7A7A7A;
+    padding: .5rem;
+    border-radius: 1rem;
+}

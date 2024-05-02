@@ -1,0 +1,26 @@
+/* ------------- m-body ------------- */
+.sch-history,
+.b-hist{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.sch-history h1{
+    text-align: center;
+    background: linear-gradient( #9A9A9A, #fff );
+    font-weight: 700;
+    border-radius: .5rem;
+}
+
+.hist-txt{
+    border: .1rem solid var(--grey-bdr);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.hist-txt p{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    /* opacity: .7; */
+    color: #6b6b6b;
+}

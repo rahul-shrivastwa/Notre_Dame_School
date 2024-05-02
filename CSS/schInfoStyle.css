@@ -1,0 +1,38 @@
+:root{
+    --th-clr: #3A3782;
+    --th-hover: #605BE5;
+}
+
+/* -- m-body -- */
+.mbh3,
+.school_table{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.mbh3{
+    text-align: center;
+    color: #696969;
+    background-color: #FFE640;
+}
+
+.school_table tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+.school_table th,
+.school_table td{
+    font-size: 1rem;
+    border: .1rem solid var(--grey-bdr2);
+    padding: .6rem;
+    color: #696969;
+}
+
+.school_table th{
+    background-color: var(--main-clr);
+    color: var(--white-clr);
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    transition: .5s;
+}

@@ -1,0 +1,25 @@
+/* ---------- m-body ---------- */
+.b-rules,
+.rules{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.rules{
+    padding: 0 1rem;
+}
+
+.rule-box h2,
+.b-rules{
+    color: #333;
+}
+
+.rule-box{
+    margin-bottom: 2rem;
+}
+
+.rule-box p{
+    font-size: 1rem;
+    color: #7c7c7c;
+}
+

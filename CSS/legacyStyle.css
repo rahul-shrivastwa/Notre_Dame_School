@@ -1,0 +1,65 @@
+:root{
+    --h1-clr: #708992;
+    --lbdr-clr: #333333;
+}
+
+/* -------------- m-body -------------- */
+.b-legacy{
+    margin: 1rem;
+    background-color: var(--h1-clr);
+    color: var(--white-clr);
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+
+.schInfo,
+.mdl,
+.base{
+    padding: .3rem;
+    border-radius: 1rem;
+}
+
+.base{
+    box-shadow: 0 0 1rem var(--black-clr);
+    margin: 1rem 0;
+}
+
+.schInfo,
+.mdl{
+    border: .2rem solid var(--lbdr-clr);
+}
+
+.schInfo{
+    padding: 1rem;
+}
+
+.schInfo p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .05rem;
+}
+
+.congrats{
+    text-align: center;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 2rem !important;
+}
+
+.left-img,
+.right-img{
+    border-radius: .2rem;
+    box-shadow: 0 0 .5rem var(--black-clr);
+}
+
+.left-img{
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.right-img{
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
